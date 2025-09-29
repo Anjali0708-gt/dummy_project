@@ -1,0 +1,30 @@
+<!-- form for user -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add User</title>
+    <link rel="stylesheet" href="/style.css"> <!-- link your external CSS -->
+</head>
+<body>
+
+    <h1>Add New User</h1>
+
+        <form action="/user/add" method="post" >
+    <label for="userId">User ID:</label><br>
+    <input type="text" id="userId" name="userId" required><br><br>
+
+    <label for="fullName">Full Name:</label><br>
+    <input type="text" id="fullName" name="fullName" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    
+    <input type="submit" value="Add User">
+</form>
+
+
+      
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* style.css - External stylesheet for Library System */
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 50px;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    padding: 12px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 120px;
+    font-weight: bold;
+    margin-left: 110px;
+    color: #ffffff;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Table styling */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Form styling */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a252f;
+}
+
+/* User list */
+ul {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    background-color: #eaeaea;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* 404 page styling */
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
